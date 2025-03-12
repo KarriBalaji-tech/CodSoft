@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.search-form {
+    display: flex;
+    align-items: left;
+}
+
+.search-form input {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 100px 0 0 100px;
+}
+
+.search-form button {
+    padding: 0.5rem;
+    border: none;
+    background-color: #ff7e5f;
+    color: white;
+    border-radius: 0 100px 100px 0;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: #feb47b;
+}
+
+.hero {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.hero .btn {
+    background-color: white;
+    color: #ff7e5f;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.features {
+    background-color: #f4f4f4;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.feature-item {
+    display: inline-block;
+    width: 30%;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.about, .services {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.about .btn {
+    background-color: #ff7e5f;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.services .service-item {
+    display: inline-block;
+    width: 30%;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
